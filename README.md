@@ -1,8 +1,22 @@
-# React + Vite
+Vi tänkte skapa en nyhetssida eller något liknande. Vi valde Tailwind som UI-ramverk för att den var kompatibel med React och verkade lite lättare att komma igång med. Vi började med att skapa en figma Wireframe och gick sedan vidare med själva koden. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Installation
+Klona projektet:
 
-Currently, two official plugins are available:
+git clone https://github.com/d.git
+cd ditt-repo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Installera beroenden:
+npm install
+
+
+Installera @heroicons/react och @headlessui/react:
+npm install @heroicons/react @headlessui/react
+
+Starta applikationen
+Starta utvecklingsservern med:
+npm run dev
+
+
+Gruppmedlemmar: Benjamin, Thomas, Gustav
